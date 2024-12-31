@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in R involving the calculation of the mean with missing values and the order of operations. The file `bug.r` contains the erroneous code, while `bugSolution.r` provides the corrected version.  The issue stems from how R handles `NA` values in calculations and the way `mean()`'s `na.rm` parameter is applied.
